@@ -15,6 +15,8 @@
 		165496271E8F57C20024B72E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 165496251E8F57C20024B72E /* LaunchScreen.storyboard */; };
 		165496321E8F57C20024B72E /* ElectronicSignatureTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 165496311E8F57C20024B72E /* ElectronicSignatureTests.m */; };
 		1654963D1E8F57C20024B72E /* ElectronicSignatureUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654963C1E8F57C20024B72E /* ElectronicSignatureUITests.m */; };
+		1654964C1E8F59190024B72E /* SignViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654964B1E8F59190024B72E /* SignViewController.m */; };
+		1654964F1E8F59E90024B72E /* UIView+Helper.m in Sources */ = {isa = PBXBuildFile; fileRef = 1654964E1E8F59E90024B72E /* UIView+Helper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		165496381E8F57C20024B72E /* ElectronicSignatureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ElectronicSignatureUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1654963C1E8F57C20024B72E /* ElectronicSignatureUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ElectronicSignatureUITests.m; sourceTree = "<group>"; };
 		1654963E1E8F57C20024B72E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1654964A1E8F59180024B72E /* SignViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SignViewController.h; sourceTree = "<group>"; };
+		1654964B1E8F59190024B72E /* SignViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SignViewController.m; sourceTree = "<group>"; };
+		1654964D1E8F59E90024B72E /* UIView+Helper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Helper.h"; sourceTree = "<group>"; };
+		1654964E1E8F59E90024B72E /* UIView+Helper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Helper.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +111,10 @@
 				1654961B1E8F57C20024B72E /* AppDelegate.m */,
 				1654961D1E8F57C20024B72E /* ViewController.h */,
 				1654961E1E8F57C20024B72E /* ViewController.m */,
+				1654964A1E8F59180024B72E /* SignViewController.h */,
+				1654964B1E8F59190024B72E /* SignViewController.m */,
+				1654964D1E8F59E90024B72E /* UIView+Helper.h */,
+				1654964E1E8F59E90024B72E /* UIView+Helper.m */,
 				165496201E8F57C20024B72E /* Main.storyboard */,
 				165496231E8F57C20024B72E /* Assets.xcassets */,
 				165496251E8F57C20024B72E /* LaunchScreen.storyboard */,
@@ -279,6 +289,8 @@
 				1654961F1E8F57C20024B72E /* ViewController.m in Sources */,
 				1654961C1E8F57C20024B72E /* AppDelegate.m in Sources */,
 				165496191E8F57C20024B72E /* main.m in Sources */,
+				1654964C1E8F59190024B72E /* SignViewController.m in Sources */,
+				1654964F1E8F59E90024B72E /* UIView+Helper.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -373,7 +385,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -415,7 +427,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
