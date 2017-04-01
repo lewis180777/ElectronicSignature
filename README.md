@@ -10,5 +10,7 @@ signVC.signLineColor = [UIColor blueColor];
 [self presentViewController:signVC animated:YES completion:nil];
 
 [signVC signResultWithBlock:^(UIImage *signImage) {
+
     self.signImageView.image = signImage;
+    
 }];
